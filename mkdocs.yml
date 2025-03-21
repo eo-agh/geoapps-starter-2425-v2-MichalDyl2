@@ -1,0 +1,63 @@
+site_name: Programowanie aplikacji geoinformatycznych (Python)
+docs_dir: docs
+repo_url: https://github.com/eo-agh/geoapps-python-course
+
+copyright: Copyright 2024 Jakub Staszel KGiIS AGH
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.details
+
+nav:
+  - Strona główna: index.md
+  - Podstawy programowania:
+    - 👽 Środowisko lokalne: zaj0/srod-lok.md
+    - 🌞 GIT - kontrola wersji: zaj01/git.md
+  - Podstawy Pythona:
+    - 🌞 Moduły i przestrzenie nazw: zaj01/moduly_przestrzenie.md
+    - 🌞 Podstawowe typy wbudowane: zaj01/typy_wbudowane.md
+    - 🌞 Niespodziewane zachowania: zaj01/niespodziewane.md
+    - 🌞 Instrukcje warunkowe i pętle: zaj01/instrukcje_petle.md
+    - 🌞 Praca z plikami: zaj01/praca_z_plikami.md
+    - 🌞📝 Zadanie sprawdzające: zaj01/zadania_sprawdzajace.md
+    - ❄️ Przypisania: zaj02/przypisania.md
+  - Pętle:
+    - ❄️ Wstęp - pętle: zaj02/petle.md
+    - ❄️ Listy składane: zaj02/listy_skladane.md
+    - ❄️ Iteratory: zaj02/iteratory.md
+  - Funkcje:
+    - ❄️ Wstęp - funkcje: zaj02/funkcje.md
+    - ❄️ Funkcje anonimowe - lambda: zaj02/lambda.md
+    - ❄️ Generatory: zaj02/generatory.md
