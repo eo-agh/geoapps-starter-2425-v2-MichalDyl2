@@ -8,3 +8,4 @@ class Ambulance:
         self.status = status
         self.location = location
         self.equipment = equipment
+ 

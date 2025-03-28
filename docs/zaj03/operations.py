@@ -10,7 +10,7 @@ class Incident:
         self.priority = priority
         self.reported_at = datetime.now()
         self.reporter_info = reporter_info
-        self.location = location
+        self.location = location 
 
 class IncidentManager:
     def __init__(self, ambulances):

@@ -11,3 +11,4 @@ class Station:
 
     def is_ambulance_at_station(self):
         return self.ambulance.location == self.location
+ 
