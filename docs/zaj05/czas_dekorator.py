@@ -7,5 +7,5 @@ def zmierz_czas(unit='seconds'):
             wynik = funkcja(*args, **kwargs) 
             end = time.time()  
             czas = end - start
-
+return  
            
